@@ -1,10 +1,34 @@
 package Jobsheet03;
 
 public class Motor {
-    public String platNomor;
-    public boolean isiMesinOn;
-    public int kecepatan;
-    
+    private  String platNomor;
+    private  boolean isiMesinOn;
+    private  int kecepatan;
+
+    public String getPlatNomor() {
+        return platNomor;
+    }
+
+    public void setPlatNomor(String platNomor) {
+        this.platNomor = platNomor;
+    }
+
+    public boolean isiMesinOn() {
+        return isiMesinOn;
+    }
+
+    public void setIsiMesinOn(boolean isiMesinOn) {
+        this.isiMesinOn =isiMesinOn;
+    }
+
+    public int getKecepatan() {
+        return kecepatan;
+    }
+
+    public void setKecepatan(int kecepatan) {
+        this.kecepatan = kecepatan;
+    }
+
     public void displayStatus() {
         System.out.println("Plat Nomor: " + this.platNomor);
     
