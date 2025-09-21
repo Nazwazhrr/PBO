@@ -34,7 +34,6 @@ public class Anggota {
             jumlahPinjaman += uang;
         }
     }
-
     // Method angsur
     // public void angsur(int uang) {
     //     if (uang < (jumlahPinjaman * 0.1)) {

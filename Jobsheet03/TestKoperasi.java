@@ -24,3 +24,4 @@ public class TestKoperasi {
             System.out.println("Jumlah pinjaman saat ini: " + anggota1.getJumlahPinjaman());
     }
 }
+
