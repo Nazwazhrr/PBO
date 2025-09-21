@@ -48,6 +48,7 @@ public class Pasien {
     }
 
     public void lihatResep() {
+        System.out.println("=========================");
         System.out.println("Resep milik " + nama );
         for (Resep r : daftarResep) {
             System.out.println(r.getInfo());

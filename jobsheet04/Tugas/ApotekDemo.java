@@ -12,10 +12,18 @@ public class ApotekDemo {
         r1.tambahObat(o1);
         r1.tambahObat(o3);
 
+        Resep r2 = new Resep("R002", "22-09-2025");
+        r2.tambahObat(o1);
+        r2.tambahObat(o2);
+
         // Buat Pasien
         Pasien p1 = new Pasien("P001", "Rizky", "Jl. Mawar No.10");
         p1.buatResep(r1);
 
+        Pasien p2 = new Pasien("P002", "Budi", "Jl. Melati No.20");
+        p2.buatResep(r2);
+
         p1.lihatResep();
+        p2.lihatResep();
     }
 }
