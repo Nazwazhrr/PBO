@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 class Transaksi {
     private String tanggal;
-    private ArrayList<ItemTransaksi> daftarItem;  // Composition - Transaksi memiliki banyak ItemTransaksi
+    private ArrayList<ItemTransaksi> daftarItem;  
     private double totalHarga;
     private static int nomorTransaksi = 1000;
     private String idTransaksi;
