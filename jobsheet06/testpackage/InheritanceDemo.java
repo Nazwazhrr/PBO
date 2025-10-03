@@ -1,4 +1,6 @@
-package Inheritance;
+package testpackage;
+
+import Inheritance.Dosen;
 
 public class InheritanceDemo {
     public static void main(String[] args) {
