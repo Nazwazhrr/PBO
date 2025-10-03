@@ -1,4 +1,4 @@
-package jobsheet06;
+package Inheritance;
 
 public class InheritanceDemo {
     public static void main(String[] args) {
