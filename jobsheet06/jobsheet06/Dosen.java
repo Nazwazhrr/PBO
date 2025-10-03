@@ -1,5 +1,4 @@
-package Inheritance;
-import testpackage.Pegawai;
+package jobsheet06;
 
 public class Dosen extends Pegawai{
     public String nidn;
