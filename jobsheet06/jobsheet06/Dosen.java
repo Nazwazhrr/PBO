@@ -13,7 +13,7 @@ public class Dosen extends Pegawai{
     // }
 
     public String getInfo() {
-        return "NIDN        : " + this.nidn + "\n";
+        return "NIDN   : " + this.nidn + "\n";
     }
 
      public String getAllInfo() {
