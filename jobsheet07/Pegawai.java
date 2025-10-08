@@ -1,7 +1,7 @@
 public class Pegawai {
     public String nip;
     public String nama;
-    public double gaji;
+    private double gaji;
     
     public Pegawai() {
         System.out.println("Objek dari class Pegawai dibuat");
