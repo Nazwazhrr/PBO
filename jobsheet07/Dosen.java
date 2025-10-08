@@ -5,6 +5,9 @@ public class Dosen extends Pegawai{
         System.out.println("Objek dari class Dosen dibuat dengan constructor berparameter");
     }
 
+    public Dosen() {
+    }
+
     public String getInfo() {
         return "NIDN    : " + this.nidn + "\n";
     }
