@@ -2,7 +2,11 @@ public class Dosen extends Pegawai{
     public String nidn;
     
     public Dosen(String nip, String nama, double gaji, String nidn) {
-        System.out.println("Objek dari class Dosen dibuat dengan constructor berparameter");
+        //System.out.println("Objek dari class Dosen dibuat dengan constructor berparameter");
+        this.nip = nip;
+        this.nama = nama;
+        this.gaji = gaji;
+        this.nidn = nidn;
     }
 
     public Dosen() {
