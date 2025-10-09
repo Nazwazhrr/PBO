@@ -3,12 +3,12 @@ public class Dosen extends Pegawai{
     
     public Dosen(String nip, String nama, double gaji, String nidn) {
         //System.out.println("Objek dari class Dosen dibuat dengan constructor berparameter");
-        this.nidn = nidn;
         super(nip, nama, gaji);
+        this.nidn = nidn;
     }
 
-    public Dosen() {
-    }
+    // public Dosen() {
+    // }
 
     public String getInfo() {
         return "NIDN    : " + this.nidn + "\n";
