@@ -19,5 +19,6 @@ class Kucing extends Hewan {
     void tampilInfo() {
         super.tampilInfo();
         System.out.println("Warna Bulu : " + warnaBulu);
+        System.out.println("");
     }
 }

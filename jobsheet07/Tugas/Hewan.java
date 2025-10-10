@@ -22,6 +22,5 @@ public class Hewan {
         System.out.println("Nama  : " + nama);
         System.out.println("Umur  : " + umur + " tahun");
         System.out.println("Jenis : " + jenis);
-        System.out.println("=========================== ");
     }
 }
