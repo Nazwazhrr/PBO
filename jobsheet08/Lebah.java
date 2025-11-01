@@ -11,7 +11,7 @@ public class Lebah extends Hewan{
         System.out.println("Otot perut mengendur, udara masuk melalui lubang di segmen tubuh");
         System.out.println("Trakea mengirimkan oksigen");
         System.out.println("Otot perut berkontraksi, udara dikeluarkan");
-}
+    }
 
     @Override
     public void bergerak() {
@@ -19,4 +19,11 @@ public class Lebah extends Hewan{
         System.out.println("Memutar sayap hampir 90 derajat");
         System.out.println("Mengepakkan sayap ke belakang");
     }
+
+    @Override
+    public void cetakInfo() {
+        super.cetakInfo();
+        System.out.println("Kasta   : " + this.kasta);
+    }
+
 }
