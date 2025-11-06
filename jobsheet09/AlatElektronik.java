@@ -32,4 +32,12 @@ public class AlatElektronik {
     public void setMerk(String merk){
         this.merk = merk;
     }
+
+        public String getInfo(){
+        String info = "";
+        info += "Merk: " + merk + "\n";
+        info += "Warna: " + warna + "\n";
+        info += "Harga: " + harga;
+        return info;
+    }
 }

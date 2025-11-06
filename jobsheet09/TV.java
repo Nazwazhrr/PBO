@@ -29,4 +29,11 @@ public class TV extends AlatElektronik implements Audible {
     public void turunkanVolume(int decrement){
         volume -= decrement;
     }
+
+        public String getInfo(){
+        String info = super.getInfo();
+        info += "\nJenis Layar: " + jenisLayar;
+        info += "\nVolume: " + volume;
+        return info;
+    }
 }

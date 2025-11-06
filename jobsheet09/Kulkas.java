@@ -13,4 +13,10 @@ public class Kulkas extends AlatElektronik {
     public int getJumlahPintu(){
         return jumlahPintu;
     }
+
+        public String getInfo(){
+        String info = super.getInfo();
+        info += "\nJumlah Pintu: " + jumlahPintu;
+        return info;
+    }
 }
