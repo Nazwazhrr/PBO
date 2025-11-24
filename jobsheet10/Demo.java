@@ -3,6 +3,14 @@ import java.util.ArrayList;
 public class Demo {
     public static void main(String[] args) {
         Dosen dosen1 = new Dosen("19940201", "Widia, S.Kom. M.Kom", "199402");
+        
+        Pegawai pegawai1 = dosen1;
+
+            System.out.println(pegawai1.nip);
+            System.out.println(pegawai1.nama);
+            System.out.println(pegawai1.nidn);
+            pegawai1.mengajar();
+
         Dosen dosen2 = new Dosen("1970015", "Muhammad, S.T, M.T", "197001");
 
         TenagaKependidikan tendik1 = new TenagaKependidikan(
@@ -18,6 +26,6 @@ public class Demo {
         daftarPegawai.add(tendik1);
         daftarPegawai.add(tendik2);
 
-        System.out.println("Jumlah Pegawai: " + daftarPegawai.size());
+        // System.out.println("Jumlah Pegawai: " + daftarPegawai.size());
     }
 }
