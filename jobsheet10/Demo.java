@@ -16,7 +16,7 @@ public class Demo {
             System.out.println(newDosen.nidn);
             newDosen.mengajar();
             
-            TenagaKependidikan test = (TenagaKependidikan) pegawai1;
+            // TenagaKependidikan test = (TenagaKependidikan) pegawai1;
 
         Dosen dosen2 = new Dosen("1970015", "Muhammad, S.T, M.T", "197001");
 
